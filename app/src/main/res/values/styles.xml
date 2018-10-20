@@ -1,0 +1,47 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="colorAccent">@color/secondaryColor</item>
+        <item name="buttonStyle">@style/arkaButton</item>
+        <item name="android:textColorPrimary">@color/primaryTextColor</item>
+        <item name="android:textColorSecondary">@color/secondaryTextColor</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="arkaButton" parent="Base.Widget.AppCompat.Button.Colored">
+
+    </style>
+
+    <style name="item">
+        <item name="android:textColor">@color/secondaryColor</item>
+        <item name="android:textSize">@dimen/text_dateCreated</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="itemCategorie">
+        <item name="android:layout_margin">0dp</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:textColor">@color/secondaryDarkColor</item>
+        <item name="android:capitalize">sentences</item>
+        <item name="android:textSize">@dimen/text_categorie</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textStyle">italic|bold</item>
+    </style>
+
+    <style name="itemTitre">
+        <item name="android:textColor">@color/primaryTextColor</item>
+        <item name="android:textSize">@dimen/text_title</item>
+    </style>
+</resources>

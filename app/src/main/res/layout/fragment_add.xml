@@ -1,0 +1,125 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/mainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/layoutProgressBar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="top"
+            android:gravity="top">
+
+            <android.support.v4.widget.ContentLoadingProgressBar
+                android:id="@+id/progressbar"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/backgroundDark"
+                android:foregroundGravity="center"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+
+        <AutoCompleteTextView
+            android:id="@+id/categorie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:completionThreshold="0"
+            android:hint="@string/add_categorie" />
+
+        <EditText
+            android:id="@+id/titre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|top"
+            android:hint="@string/infoTitre"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/entete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|top"
+            android:hint="@string/infoEntete"
+            android:inputType="textAutoComplete|textMultiLine"
+            android:minLines="2" />
+
+        <EditText
+            android:id="@+id/article"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|top"
+            android:hint="@string/infoArticle"
+            android:inputType="textAutoComplete|textMultiLine"
+            android:minLines="8" />
+
+        <CheckBox
+            android:id="@+id/publier"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/infoPublier" />
+
+        <CheckBox
+            android:id="@+id/commentaires"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/infoCommentaires" />
+
+        <CheckBox
+            android:id="@+id/retroLiens"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/infoRetroLiens" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/envoyer"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="@string/btEnvoyer" />
+
+            <Button
+                android:id="@+id/btRaz"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="@string/btRaz" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btAddFile"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="@string/btAddFile" />
+
+            <Button
+                android:id="@+id/btMaj"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="@string/update" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

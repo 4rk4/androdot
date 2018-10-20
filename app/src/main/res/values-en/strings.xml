@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Androdot</string>
+    <string name="navigation_drawer_open">Open navigation</string>
+    <string name="navigation_drawer_close">Close navigation</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="pref_header_general">General</string>
+    <string name="pref_title_display_name">User name</string>
+    <string name="pref_default_display_name">bob</string>
+    <string name="pref_title_url">URL</string>
+    <string name="pref_default_url">https://siteweb.fr/admin/xmlrpc.php?b=default</string>
+    <string name="pref_title_password">Password</string>
+    <string name="pref_nb_articles">Number of articles</string>
+    <string name="btRaz">Erase</string>
+    <string name="btEnvoyer">Send</string>
+    <string name="infoPublier">Publish</string>
+    <string name="infoCommentaires">Commentary</string>
+    <string name="infoRetroLiens">Links</string>
+    <string name="infoEntete">Header</string>
+    <string name="infoTitre">Title</string>
+    <string name="infoArticle">Content</string>
+    <string name="warningSend">The article and the header are empty!</string>
+    <string name="drawerStudio">ArkaSoft</string>
+    <string name="drawerPartager">Share</string>
+    <string name="drawerEnvoyer">Contact us</string>
+    <string name="postOk">Article number %s posted!</string>
+    <string name="drawerMod">Edit</string>
+    <string name="stdError">An error has occured.</string>
+    <string name="drawerAdd">Write an article</string>
+    <string name="app_subtitle_add">Write an article</string>
+    <string name="app_subtitle_mod">Edit an article</string>
+    <string name="contact_subject">App Androdot</string>
+    <string name="contact_email_ArkaSoftWare">fr.arka.soft@gmail.com</string>
+    <string name="contact_title">App Androdot</string>
+    <string name="msgUpdate">List of articles updated.</string>
+    <string name="msgUpdateError">An error has occured when updating list of articles.</string>
+    <string name="dialog_message">Start to configure the settings!</string>
+    <string name="dialog_title">Settings</string>
+    <string name="dialog_ok">Ok</string>
+    <string name="default_cat_name">Evrythings</string>
+</resources>

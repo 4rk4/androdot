@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="0dp"
+    android:background="@drawable/selector_recyclerview"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="left|center_vertical"
+        android:layout_margin="10dp"
+        android:layout_weight="0"
+        android:src="@android:drawable/ic_menu_edit" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/categorie"
+            style="@style/itemCategorie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Categorie" />
+
+        <TextView
+            android:id="@+id/dateCreated"
+            style="@style/item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="01/01/2018 00:00" />
+
+        <TextView
+            android:id="@+id/content"
+            style="@style/itemTitre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Test"
+            android:textAppearance="?attr/textAppearanceListItem" />
+    </LinearLayout>
+
+
+</LinearLayout>

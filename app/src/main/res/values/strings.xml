@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Androdot</string>
+
+    <string name="navigation_drawer_open">Ouvrir la navigation</string>
+    <string name="navigation_drawer_close">Fermer la navigation</string>
+
+    <string name="action_settings">Paramètres</string>
+    <string name="title_activity_settings">Paramètres</string>
+    <string name="pref_header_general">Général</string>
+    <string name="pref_title_display_name">"Nom d'utilisateur"</string>
+    <string name="pref_default_display_name">dupont</string>
+    <string name="pref_title_url">"URL"</string>
+    <string name="pref_default_url">"https://siteweb.fr/admin/xmlrpc.php?b=default"</string>
+    <string name="pref_title_password">"Mot de passe"</string>
+    <string name="pref_nb_articles">Nombre d\'articles</string>
+
+    <string name="btRaz">Effacer</string>
+    <string name="btEnvoyer">Envoyer</string>
+    <string name="infoPublier">Publier</string>
+    <string name="infoCommentaires">Commentaires</string>
+    <string name="infoRetroLiens">Retroliens</string>
+    <string name="infoEntete">En tête</string>
+    <string name="infoTitre">Titre</string>
+    <string name="infoArticle">Contenu de l\'article</string>
+    <string name="warningSend">L\'article et le titre sont vide!</string>
+    <string name="drawerStudio">ArkaSoft</string>
+    <string name="drawerPartager">Partager</string>
+    <string name="drawerEnvoyer">"Contactez l'auteur"</string>
+    <string name="postOk">Article numéro %s posté!</string>
+    <string name="drawerMod">Modifier</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="stdError">Une erreur s\'est produite.</string>
+    <string name="drawerAdd">Ecrire un article</string>
+    <string name="app_subtitle_add">Ecrire un article</string>
+    <string name="app_subtitle_mod">Modifier un article</string>
+    <string name="contact_subject">App Androdot</string>
+    <string name="contact_email_ArkaSoftWare">fr.arka.soft@gmail.com</string>
+    <string name="contact_title">App Androdot</string>
+    <string name="msgUpdate">Liste des articles mise à jour.</string>
+    <string name="msgUpdateError">Une erreur s\'est produite durant la mis à jour des articles.</string>
+    <string name="dialog_message">Commencez par configurer votre application !</string>
+    <string name="dialog_title">Configuration</string>
+    <string name="dialog_ok">Ok</string>
+    <string name="msgConnctedError">Aucune connexion à internet: pas de mise à jour de la liste articles récents.</string>
+    <string name="add_categorie">Catégorie</string>
+    <string name="update">Mise à jour</string>
+    <string name="btAddFile">Ajouter un fichier</string>
+    <string name="categorieCreated">Catégorie crée : %s</string>
+    <string name="msg_send_img">Photos envoyée!</string>
+    <string name="default_cat_name">Aucune</string>
+
+</resources>
