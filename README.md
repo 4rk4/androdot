@@ -2,6 +2,11 @@
 
 Android app for Dotclear blog version 1 and 2.
 
+## Licence
+
+This software use the GPL v3
+
+
 ## Description
 
 Simple app to write, edit and publish your post on dotclear blog.
